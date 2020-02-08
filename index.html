@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Avrakhova Laura">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ITstep Dnipro, gr. web_2019, dz-js">
+    <title>Avrakhova dz14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            1. Создайте веб-приложение, в котором пользователь вводит 10 оценок. Вывести на экран 3 самых больших оценки в порядке убывания и порядковые номера этих элементов<br>
+            Входные данные:<br>
+            Числа - целое число от 1 до 100<br>
+            Выходные данные:<br>
+            Текст - Результат поиска. Топ 3 оценок и индексы этих оценок в массиве
+        </div>
+        <div class="champ">
+            <input type="text" id="mark1" class="mark" placeholder="№1">
+            <input type="text" id="mark2" class="mark" placeholder="№2">
+            <input type="text" id="mark3" class="mark" placeholder="№3">
+            <input type="text" id="mark4" class="mark" placeholder="№4">
+            <input type="text" id="mark5" class="mark" placeholder="№5">
+            <input type="text" id="mark6" class="mark" placeholder="№6">
+            <input type="text" id="mark7" class="mark" placeholder="№7">
+            <input type="text" id="mark8" class="mark" placeholder="№8">
+            <input type="text" id="mark9" class="mark" placeholder="№9">
+            <input type="text" id="mark10" class="mark" placeholder="№10">
+        </div>
+        <button  id="btnChampion">Топ 3 оценок</button>
+        <div class="result resultChamp"></div>
+    </section>
+    <section>
+        <div>
+            2. Создайте веб-приложение, в котором есть двумерный массив карт 13 на 4(4 масти карт от 2 до туза). Выведите в консоль случайную карту из массива используя Math.random()<br>
+            Выходные данные:<br>
+            Строка - Случайная карта
+        </div>
+        <button  id="btnCards">Фокус</button>
+        <div class="result resultCards"></div>
+    </section>
+    <section>
+        <div>
+            3. Саймон написал код. Саймон уверен, что код в порядке. Но код не работает. Исправь ошибки, допущенные Саймоном.<br>
+            Входные данные:<br>
+            Строка - имя игрока<br>
+            Выходные данные:<br>
+            Текст - Решение NPC
+        </div>
+        <input type="text" id="codeSimon" placeholder="Введите имя игрока">
+        <button  id="btnCodeSimon">Код Саймона</button>
+        <div class="result resultSimon"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
