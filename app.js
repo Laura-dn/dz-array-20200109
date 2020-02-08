@@ -89,6 +89,10 @@ function againSimon() {
     obj.namePlayer = obj.DOMInput.value;
     obj.nameLen = obj.namePlayer.length;
 
+    if(obj.nameLen < 1) {
+        return obj.result.innerHTML = "ОШИБКА! Введите имя.";
+    }
+	
     for(let i = 0; i < obj.nameLen; i++){
         if(obj.letters.indexOf(obj.namePlayer[i].toLowerCase()) > -1){
             obj.isBadName = true;
